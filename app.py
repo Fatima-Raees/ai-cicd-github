@@ -14,3 +14,6 @@ def is_even(n: int) -> bool:
 def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
+def multiple(a: int, b: int) -> int:
+    """Multiply two numbers together."""
+    return a * b
